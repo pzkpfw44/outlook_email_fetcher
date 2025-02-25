@@ -28,7 +28,7 @@ def fetch_emails():
         print("Authentication failed.")
         return
     
-    url = "https://graph.microsoft.com/v1.0/me/messages"
+    url = "https://graph.microsoft.com/v1.0/me/messages" #It might change over time, be sure it is the latest one
     headers = {"Authorization": f"Bearer {token}"}
     response = requests.get(url, headers=headers)
     
