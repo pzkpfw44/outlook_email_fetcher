@@ -2,7 +2,7 @@ import requests
 import webbrowser
 from msal import PublicClientApplication
 
-# Azure AD App Details (Replace with your app details)
+# Azure AD App Details (Replace with your app details. Refer to specifi documentation/site)
 CLIENT_ID = "your-client-id"
 TENANT_ID = "your-tenant-id"
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
